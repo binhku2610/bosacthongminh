@@ -1,0 +1,58 @@
+Removed Pin From Net: NetName=GND Pin=U2-3
+Removed Pin From Net: NetName=GND Pin=U2-4
+Removed Pin From Net: NetName=V_Pin Pin=U3-1
+Removed Pin From Net: NetName=GND Pin=U3-2
+Removed Pin From Net: NetName=ADC_PIN Pin=U3-3
+Removed Pin From Net: NetName=+5 Pin=U3-4
+Removed Member From Class: ClassName=Sheet1 Member=U3
+Added Component: Designator=D1(DIO-1A)
+Add component (AddParameter): Name = "Code - JEDEC"; Value = "DO-214-AB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "July-2002: Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1N5007"; VariantName = "[No Variations]"
+Added Component: Designator=LED1(LED-5-Green)
+Add component (AddParameter): Name = "Value"; Value = "LED 3 ly Single Colour"; VariantName = "[No Variations]"
+Added Component: Designator=Q1(TO-92)
+Add component (AddParameter): Name = "DataSheet"; Value = "https://www.mouser.vn/datasheet/2/308/1/BC550_D-2310266.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=R2(RES-1/4W)
+Add component (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SubClass"; Value = "R"; VariantName = "[No Variations]"
+Added Component: Designator=R3(RES-1/4W)
+Add component (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SubClass"; Value = "R"; VariantName = "[No Variations]"
+Added Component: Designator=RL1(RELAY 5)
+Add component (AddParameter): Name = "Value"; Value = "Relay SPDT, 10A, 12V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5 Pin=D1-2
+Added Pin To Net: NetName=GND Pin=Q1-3
+Added Pin To Net: NetName=+5 Pin=R2-2
+Added Pin To Net: NetName=V_Pin Pin=R3-2
+Added Pin To Net: NetName=ADC_PIN Pin=RL1-3
+Added Pin To Net: NetName=+5 Pin=RL1-5
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=NetD1_1 Pin=LED1-2
+Added Pin To Net: NetName=NetD1_1 Pin=Q1-1
+Added Pin To Net: NetName=NetD1_1 Pin=RL1-4
+Added Net: Name=NetD1_1
+Added Pin To Net: NetName=NetLED1_1 Pin=LED1-1
+Added Pin To Net: NetName=NetLED1_1 Pin=R2-1
+Added Net: Name=NetLED1_1
+Added Pin To Net: NetName=NetQ1_2 Pin=Q1-2
+Added Pin To Net: NetName=NetQ1_2 Pin=R3-1
+Added Net: Name=NetQ1_2
+Added Pin To Net: NetName=NetRL1_1 Pin=RL1-1
+Added Pin To Net: NetName=NetRL1_1 Pin=U2-3
+Added Pin To Net: NetName=NetRL1_1 Pin=U2-4
+Added Net: Name=NetRL1_1
+Added Member To Class: ClassName=Sheet1 Member=Component D1 Diode
+Added Member To Class: ClassName=Sheet1 Member=Component LED1 LED
+Added Member To Class: ClassName=Sheet1 Member=Component Q1 BC547
+Added Member To Class: ClassName=Sheet1 Member=Component R2 Res
+Added Member To Class: ClassName=Sheet1 Member=Component R3 Res
+Added Member To Class: ClassName=Sheet1 Member=Component RL1 Relay 10A/12V

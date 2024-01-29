@@ -1,0 +1,82 @@
+Change Component Footprint: Designator=C1 Old Footprint=Header2 New Footprint=CAPC_0603_N
+Change Component Comment : Designator=C1 Old Comment=Header2 New Comment=0.1uF
+Change component parameters: Designator = "C1" ("C1"); Footprint = "Header2"; UniqueID = "\FJAFPCUK" ("\FJAFPCUK")
+Change component parameters (AddParameter): Name = "Category"; Value = "Capacitor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Creator"; Value = "ThangND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Detailed Value"; Value = "0.1uF - 50V - 0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacture"; Value = "Hottech"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting type"; Value = "SMD"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Partnumber"; Value = "C0603X7R104K500NT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PROJECT"; Value = "KHO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Added Component: Designator=BAT1(SOCKET_18650_1PIN)
+Added Component: Designator=C2(CAPC_0603_N)
+Add component (AddParameter): Name = "Category"; Value = "Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Creator"; Value = "ThangND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Detailed Value"; Value = "0.1uF - 50V - 0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacture"; Value = "Hottech"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting type"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Partnumber"; Value = "C0603X7R104K500NT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PROJECT"; Value = "KHO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Added Component: Designator=i2c(Header4)
+Add component (AddParameter): Name = "ComponentLink1 Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2 Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/em/datasheet/6130xx143121.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created by"; Value = "Karrer Zheng"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created Date"; Value = "29 March 2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "W¨¹rth Elektronik eiSos GmbH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NoPins"; Value = "02"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "partNo"; Value = "613002143121"; VariantName = "[No Variations]"
+Added Component: Designator=J1(NTC Thermistor)
+Added Component: Designator=U2(ACS712)
+Added Component: Designator=U3(DIP4/W0.3)
+Add component (AddParameter): Name = "Value"; Value = "PC817"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5 Pin=C1-2
+Added Pin To Net: NetName=+5 Pin=i2c-2
+Added Pin To Net: NetName=+5 Pin=R1-2
+Added Pin To Net: NetName=+5 Pin=U1-15
+Added Pin To Net: NetName=+5 Pin=U2-1
+Added Pin To Net: NetName=+5 Pin=U2-2
+Added Pin To Net: NetName=+5 Pin=U2-8
+Added Pin To Net: NetName=+5 Pin=U3-4
+Added Net: Name=+5
+Added Pin To Net: NetName=ADC_Ampe Pin=U1-10
+Added Pin To Net: NetName=ADC_Ampe Pin=U2-7
+Added Net: Name=ADC_Ampe
+Added Pin To Net: NetName=ADC_PIN Pin=BAT1-1
+Added Pin To Net: NetName=ADC_PIN Pin=U1-12
+Added Pin To Net: NetName=ADC_PIN Pin=U3-3
+Added Net: Name=ADC_PIN
+Added Pin To Net: NetName=GND Pin=BAT1-2
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=GND Pin=i2c-1
+Added Pin To Net: NetName=GND Pin=J1-1
+Added Pin To Net: NetName=GND Pin=U1-14
+Added Pin To Net: NetName=GND Pin=U2-3
+Added Pin To Net: NetName=GND Pin=U2-4
+Added Pin To Net: NetName=GND Pin=U3-2
+Added Net: Name=GND
+Added Pin To Net: NetName=NetC2_2 Pin=C2-2
+Added Pin To Net: NetName=NetC2_2 Pin=U2-5
+Added Pin To Net: NetName=NetC2_2 Pin=U2-6
+Added Net: Name=NetC2_2
+Added Pin To Net: NetName=NetJ1_2 Pin=J1-2
+Added Pin To Net: NetName=NetJ1_2 Pin=R1-1
+Added Pin To Net: NetName=NetJ1_2 Pin=U1-13
+Added Net: Name=NetJ1_2
+Added Pin To Net: NetName=SCL Pin=i2c-4
+Added Net: Name=SCL
+Added Pin To Net: NetName=SDA Pin=i2c-3
+Added Net: Name=SDA
+Added Pin To Net: NetName=V_Pin Pin=U1-11
+Added Pin To Net: NetName=V_Pin Pin=U3-1
+Added Net: Name=V_Pin
+Added Member To Class: ClassName=Sheet1 Member=Component BAT1 SOCKET_18650
+Added Member To Class: ClassName=Sheet1 Member=Component C2 1nF
+Added Member To Class: ClassName=Sheet1 Member=Component i2c Header4
+Added Member To Class: ClassName=Sheet1 Member=Component J1 NTC Thermistor
+Added Member To Class: ClassName=Sheet1 Member=Component U2 ACS712
+Added Member To Class: ClassName=Sheet1 Member=Component U3 PC817

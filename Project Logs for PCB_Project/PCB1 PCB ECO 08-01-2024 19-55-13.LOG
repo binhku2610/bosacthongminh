@@ -1,0 +1,33 @@
+Removed Pin From Net: NetName=GND Pin=R6-1
+Change Component Comment : Designator=R6 Old Comment=2k New Comment=1k
+Added Component: Designator=C3(CN1)
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Added Component: Designator=C4(CN1)
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Added Component: Designator=C5(CN1)
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Added Component: Designator=C6(CN1)
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Added Component: Designator=R9(RES-1/4W)
+Add component (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SubClass"; Value = "R"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=Out_put_AP Pin=C3-2
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=ADC_Ampe Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C5-1
+Added Pin To Net: NetName=V_PIN Pin=C5-2
+Added Pin To Net: NetName=GND Pin=C6-1
+Added Pin To Net: NetName=ADC_PIN Pin=C6-2
+Added Pin To Net: NetName=GND Pin=R9-1
+Added Pin To Net: NetName=NetR6_1 Pin=R6-1
+Added Pin To Net: NetName=NetR6_1 Pin=R9-2
+Added Net: Name=NetR6_1
+Added Member To Class: ClassName=Sheet1 Member=Component C3 1uF
+Added Member To Class: ClassName=Sheet1 Member=Component C4 0.1uF
+Added Member To Class: ClassName=Sheet1 Member=Component C5 1uF
+Added Member To Class: ClassName=Sheet1 Member=Component C6 0.1uF
+Added Member To Class: ClassName=Sheet1 Member=Component R9 1k
